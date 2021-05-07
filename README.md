@@ -1,25 +1,23 @@
-# docker-tool_name
-Template Repository for the Boutros Lab Dockerfiles based on the bl-base image.
+# docker-RTGtools
+Dockerfile for RTG-tools, "utilities for accurate VCF comparison and manipulation"
 
-The bl-base image is located in the Boutros Lab Docker Hub repo: https://hub.docker.com/repository/docker/blcdsdockerregistry/bl-base
+The image is located in the Boutros Lab Docker Hub repo: https://hub.docker.com/repository/docker/blcdsdockerregistry/rtg-tools
 
 # Documentation
-Docker introduction [here](https://confluence.mednet.ucla.edu/display/BOUTROSLAB/Docker+Introduction)
+RTG-tools main website [here](https://www.realtimegenomics.com/products/rtg-tools)
 
-Dockerfile Best Practices [here](https://confluence.mednet.ucla.edu/display/BOUTROSLAB/Dockerfile+Best+Practices)
+RTG-tools documentation [here](https://cdn.rawgit.com/RealTimeGenomics/rtg-tools/master/installer/resources/tools/RTGOperationsManual/index.html)
 
-Docker image versioning standard [here](https://confluence.mednet.ucla.edu/display/BOUTROSLAB/Docker+image+versioning+standardization)
-
+GitHub repository [here](https://github.com/RealTimeGenomics/rtg-tools)
 
 # Version
 | Tool | Version |
 |------|---------|
-|tool_name| X.X.X|
-|tool_name_2|X.X.X|
+| RTG-tools | 3.12 |
 
 
 ---
 
 ## References
 
-1. Tool specific references can be listed here
+1. https://www.realtimegenomics.com/products/rtg-tools
