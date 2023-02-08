@@ -13,7 +13,7 @@ GitHub repository [here](https://github.com/RealTimeGenomics/rtg-tools)
 # Version
 | Tool | Version |
 |------|---------|
-| RTG-tools | 3.12 |
+| RTG-tools | 3.12.1 |
 
 
 ---
