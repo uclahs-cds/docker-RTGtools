@@ -5,7 +5,7 @@ Maintainers: ['TSanders@mednet.ucla.edu']
 Contributors: ['Timothy Sanders']
 Languages: ['bash']
 Tools: ['RTG-tools']
-Version: ['3.12']
+Version: ['3.12.1']
 Purpose of tool: 'utilities for accurate VCF comparison and manipulation'
 Dependencies: ['docker', 'conda', 'bl-base']
 References: 'https://www.realtimegenomics.com/products/rtg-tools'
