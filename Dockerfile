@@ -21,4 +21,5 @@ RUN groupadd -g 500001 bldocker && \
 # Change the default user to bldocker from root
 USER bldocker
 
-LABEL maintainer="John Sahrmann <jsahrmann@mednet.ucla.edu>"
+LABEL maintainer="John Sahrmann <jsahrmann@mednet.ucla.edu>" \
+      org.opencontainers.image.source=https://github.com/uclahs-cds/docker-RTGtools
