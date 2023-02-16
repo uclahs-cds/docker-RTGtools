@@ -22,4 +22,4 @@ RUN groupadd -g 500001 bldocker && \
 USER bldocker
 
 LABEL maintainer="John Sahrmann <jsahrmann@mednet.ucla.edu>" \
-      org.opencontainers.image.source=https://hub.docker.com/repository/docker/blcdsdockerregistry/rtg-tools
+      org.opencontainers.image.source=https://github.com/uclahs-cds/docker-RTGtools
