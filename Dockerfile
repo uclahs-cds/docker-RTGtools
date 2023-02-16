@@ -14,4 +14,12 @@ RUN conda create -qy -p /usr/local \
 FROM ubuntu:${UBUNTU_VERSION} AS final
 COPY --from=builder /usr/local /usr/local
 
-LABEL maintainer="John Sahrmann <jsahrmann@mednet.ucla.edu>"
+# Add a new user/group called bldocker
+RUN groupadd -g 500001 bldocker && \
+    useradd -r -u 500001 -g bldocker bldocker
+
+# Change the default user to bldocker from root
+USER bldocker
+
+LABEL maintainer="John Sahrmann <jsahrmann@mednet.ucla.edu>" \
+      org.opencontainers.image.source=https://github.com/uclahs-cds/docker-RTGtools

@@ -10,6 +10,9 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 ## [Unreleased]
 ### Added
 - Add GitHub autobuild action
+- Add default user and group
+- Set user to new default so not using root
+- Add dockerhub repo URL to image source metadata
 
 ### Changed
 - Update RTG-tools version to 3.12.1 from 3.12
