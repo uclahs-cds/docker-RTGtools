@@ -1,7 +1,7 @@
 # docker-RTGtools
 Dockerfile for RTG-tools, "utilities for accurate VCF comparison and manipulation"
 
-The image is located in the Boutros Lab Docker Hub repo: https://hub.docker.com/repository/docker/blcdsdockerregistry/rtg-tools
+The image is located in the Boutros Lab GitHub container registry: https://github.com/uclahs-cds/docker-RTGtools/pkgs/container/rtg-tools
 
 # Documentation
 RTG-tools main website [here](https://www.realtimegenomics.com/products/rtg-tools)
