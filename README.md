@@ -29,7 +29,6 @@ GitHub repository [here](https://github.com/RealTimeGenomics/rtg-tools)
 
 Please see list of [Contributors](https://github.com/uclahs-cds/docker-RTGtools/graphs/contributors) at GitHub.
 
-
 ---
 
 ## References
