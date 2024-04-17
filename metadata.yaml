@@ -1,12 +1,10 @@
 ---
-Category: 'docker'
-Description: 'Dockerfile for RTG-tools'
-Maintainers: ['jsahrmann@mednet.ucla.edu']
-Contributors: ['John Sahrmann']
-Languages: ['bash']
-Tools: ['RTG-tools']
-Version: ['3.12.1']
-Purpose of tool: 'utilities for accurate VCF comparison and manipulation'
-Dependencies: ['docker', 'conda']
-References: 'https://www.realtimegenomics.com/products/rtg-tools'
+category: 'docker'
+description: 'Dockerfile for RTG-tools'
+maintainers: ['jsahrmann@mednet.ucla.edu']
+languages: ['Dockerfile']
+tools: ['RTG-tools']
+version: ['3.12.1']
+purpose: 'Utilities for accurate VCF comparison and manipulation'
+references: 'https://www.realtimegenomics.com/products/rtg-tools'
 image_name: 'rtg-tools'
