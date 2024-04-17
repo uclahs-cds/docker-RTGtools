@@ -9,6 +9,20 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ## [Unreleased]
 
+---
+
+## [3.12.1] - 2024-04-16
+### Added
+- Add PR template to repo
+
+### Changed
+- Update CICD-base docker registry to `ghcr.io/uclahs-cds`
+- Standardize `README.md`
+- Standardize `metadata.yaml`
+- Update Mamba and Ubuntu version in Dockerfile
+
+---
+
 ## [3.12.1] - 2023-02-17
 ### Added
 - Add GitHub autobuild action
