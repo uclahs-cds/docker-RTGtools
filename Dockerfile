@@ -1,5 +1,5 @@
-ARG MINIFORGE_VERSION=22.9.0-2
-ARG UBUNTU_VERSION=20.04
+ARG MINIFORGE_VERSION=23.3.1-1
+ARG UBUNTU_VERSION=23.04
 
 FROM condaforge/mambaforge:${MINIFORGE_VERSION} AS builder
 
@@ -23,3 +23,4 @@ USER bldocker
 
 LABEL maintainer="John Sahrmann <jsahrmann@mednet.ucla.edu>" \
       org.opencontainers.image.source=https://github.com/uclahs-cds/docker-RTGtools
+
